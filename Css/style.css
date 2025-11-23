@@ -1,0 +1,110 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #222;
+}
+
+/* Header */
+header {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Image */
+.hero-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Content Sections */
+.content {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.content section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #003366;
+}
+
+/* Login Form */
+.login-form input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px 25px;
+    background: #003366;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-form button:hover {
+    background: #001f44;
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer .social-icons img {
+    margin: 0 8px;
+    transition: 0.3s;
+    vertical-align: middle;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    margin-top: 15px;
+    font-size: 14px;
+}
